@@ -1,0 +1,360 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.153),rgba(0, 0, 0, 0.23)),url(/photo/footballturf.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  align-items: center; /* Align items vertically */
+  background-color: #333;
+  padding: 20px;
+    position: absolute;
+  top: 0; /* Position navbar at the top of the page */
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.navbar-toggler-icon {
+  background-image: url('path/to/your-toggler-icon.svg'); /* Customize the icon */
+  width: 30px;
+  height: 30px;
+}
+
+/* Adjust other styles as needed */
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing */
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e8d5b7; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li button {
+  font-size: 20px;
+  color: white;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+nav ul li button:hover {
+  color: rgba(189, 159, 9, 0.941);
+}
+
+nav ul li a:hover {
+  color: rgba(164, 140, 19, 0.941);
+}
+
+a{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration:none;
+  color: #e8d5b7;
+  font-size: 28px;
+}
+a:hover {
+  color: rgba(164, 140, 19, 0.941);
+  
+}
+
+#login-form {
+  display: none;
+}
+
+/* Other styles remain unchanged */
+
+.form-box
+{
+    width:380px;
+	height:590px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(18, 18, 18, 0.562);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff622492;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+	
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+	
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #c6cf14;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+	
+}
+.FP{
+	
+	margin: 125px;
+}
+
+
+span
+{
+	color:#d6fc5ad5;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+#forget-password{
+	left: -450px;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+   
+  background-image: url(/photo/football3.jpg);
+  min-height: 400px;
+}
+.pimg2 {
+  background-image: url(/photo/football3.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(/photo/stadium.jpg);
+  min-height: 400px;
+}.pimg4 {
+  background-image: url(/photo/football2.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-1 {
+margin-top: 4%;
+  background-color:#f4f4f4;
+  color: #666;
+  }
+  
+  .section-2 {
+    background-color: #282e34;
+    color: #ddd;
+    
+  }
+  
+.section-3 {
+  background-color: #f4f4f4;
+  color: #666;
+  }
+.section-4 {
+  background-color: #282e34;
+  color: #ddd;
+  
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(/photo/football3.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(/photo/football3.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(/photo/stadium.jpg);
+  min-height: 400px;
+}
+.pimg4 {
+  background-image: url(/photo/football2.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;  
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #b3bdad;
+  color: #666666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
