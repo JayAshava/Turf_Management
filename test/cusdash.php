@@ -49,7 +49,7 @@ nav ul li a
 {
     height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.153),rgba(0, 0, 0, 0.23)),url(/photo/turf1.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.153),rgba(0, 0, 0, 0.23)),url(/xampp/htdocs/project6/photo/turf1.png);
 	background-position: center;
 	background-size: cover;
 	position: absolute;

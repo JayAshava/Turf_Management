@@ -156,14 +156,14 @@ $fname = isset($_SESSION['name']) ? $_SESSION['name'] : 'GUEST';
         <div class="container">
             <div class="sport">
                 <h2>Cricket</h2>
-                <img src="/photo/cricket.jpg" alt="Cricket">
+                <img src="/xampp/htdocs/project6/photo/cricket.jpg" alt="Cricket">
                 <p>Matches played on turf pitches tend to favor skilled batsmen who can adapt to the varying conditions and make the most of the true bounce and pace of the ball.</p>
                 <a href="slot_real_booking.php"><button>Book Now</button></a>
 
             </div>
             <div class="sport">
                 <h2>Football</h2>
-                <img src="/photo/football3.jpg" alt="Football">
+                <img src="/xampp/htdocs/project6/photo/football3.jpg" alt="Football">
                 <p>Turf football is like playing soccer on a really nice carpet. It's smooth, fast, and you can play on it no matter what the weather is like.</p>
                 <a href="footbal_booking.php"><button>Book Now</button></a>
  

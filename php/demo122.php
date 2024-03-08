@@ -29,8 +29,8 @@ $result= $conn->query($sql);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/xampp/htdocs/project6/css/style.css">
+    <script src="/xampp/htdocs/project6/js/index.js" defer></script>
 </head>
 
 <body>

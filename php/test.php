@@ -5,7 +5,7 @@
     <style>
         /* Basic CSS for styling */
         body{
-            background-image: url(/photo/football2.jpg);
+            background-image: url(/xampp/htdocs/project6/photo/football2.jpg);
             background-size: cover;
             position:relative;
         }

@@ -56,7 +56,7 @@ ob_end_flush();
             background-color: #f8f9fa; /* Light gray background */
         }
         header {
-            background-image: url('/photo/football2.jpg'); /* Background image for the header */
+            background-image: url('/xampp/htdocs/project6/photo/football2.jpg'); /* Background image for the header */
             background-size: cover;
             color: #fff;
             padding: 20px;
@@ -72,7 +72,7 @@ ob_end_flush();
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            background-image: url('/photo/football2.jpg'); /* Background image for the container */
+            background-image: url('/xampp/htdocs/project6/photo/football2.jpg'); /* Background image for the container */
             background-size: cover;
             background-position: center;
             border-radius: 10px;
@@ -128,8 +128,8 @@ ob_end_flush();
             background-color: black; /* Darker blue on hover */
         }
     </style>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/xampp/htdocs/project6/css/style.css">
+    <script src="/xampp/htdocs/project6/js/index.js" defer></script>
 </head>
 
 <body>

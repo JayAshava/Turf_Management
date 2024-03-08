@@ -34,7 +34,7 @@
         <style>
     body {
         font-family: Arial, sans-serif;
-        background: url('/photo/turf\ football.jpg') no-repeat center center fixed;
+        background: url('/xampp/htdocs/project6/photo/turf\ football.jpg') no-repeat center center fixed;
         background-size: cover;
         display: flex;
         justify-content: left;

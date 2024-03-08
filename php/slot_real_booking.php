@@ -8,7 +8,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url(/photo/pexels-markus-spiske-114296.jpg);
+            background-image: url(/xampp/htdocs/project6/photo/pexels-markus-spiske-114296.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;

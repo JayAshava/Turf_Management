@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            background-image: url(/photo/footballturf.jpg);
+            background-image: url(/xampp/htdocs/project6/photo/footballturf.jpg);
             background-size: cover;
             position: relative;
             background-color: #f5f5f5;

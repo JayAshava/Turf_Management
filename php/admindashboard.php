@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 	<!-- Boxicons -->
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<!-- My CSS -->
-	<link rel="stylesheet" href="/css/admindash.css">
+	<link rel="stylesheet" href="/xampp/htdocs/project6/css/admindash.css">
 
 	<title>AdminHub</title>
 </head>
@@ -102,7 +102,7 @@ if ($conn->connect_error) {
 				
 			</a>
 			<a href="#" class="profile">
-				<img src="/photo/usericon.png">
+				<img src="/xampp/htdocs/project6/photo/usericon.png">
 			</a>
 		</nav>
 		<!-- NAVBAR -->
@@ -196,6 +196,6 @@ if ($conn->connect_error) {
 	<!-- CONTENT -->
 	
 
-	<script src="/js/admindash.js"></script>
+	<script src="/xampp/htdocs/project6/js/admindash.js"></script>
 </body>
 </html>

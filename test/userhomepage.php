@@ -13,7 +13,7 @@
     color: #fff; /* White text */
 }
 header {
-    background-image: url('/photo/football2.jpg'); /* Background image for the header */
+    background-image: url('/xampp/htdocs/project6/photo/football2.jpg'); /* Background image for the header */
     background-size: cover;
     padding: 20px;
     text-align: center;
@@ -110,13 +110,13 @@ footer {
     <div class="container">
         <div class="sport">
             <h2>Cricket</h2>
-            <img src="/photo/cricket.jpg" alt="Cricket">
+            <img src="/xampp/htdocs/project6/photo/cricket.jpg" alt="Cricket">
             <p>Enjoy a game of cricket with friends!</p>
             <button onclick="location.href='cricket_booking.php'">Book Now</button>
         </div>
         <div class="sport">
             <h2>Football</h2>
-            <img src="/photo/football3.jpg" alt="Football">
+            <img src="/xampp/htdocs/project6/photo/football3.jpg" alt="Football">
             <p>Book your football match now!</p>
             <button onclick="window.location.href = '/football_booking.php';">Book Now</button>
         </div>

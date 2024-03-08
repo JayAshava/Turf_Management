@@ -14,7 +14,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background: url(/photo/turf1.png) no-repeat;
+      background: url(/xampp/htdocs/project6/photo/turf1.png) no-repeat;
       background-position: center;
       background-size:cover
     }

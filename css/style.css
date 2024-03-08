@@ -8,7 +8,7 @@
 {
     height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.153),rgba(0, 0, 0, 0.23)),url(/photo/footballturf.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.153),rgba(0, 0, 0, 0.23)),url(/xampp/htdocs/project6/photo/footballturf.jpg);
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -227,18 +227,18 @@ body {
 }
 .pimg1 {
    
-  background-image: url(/photo/football3.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football3.jpg);
   min-height: 400px;
 }
 .pimg2 {
-  background-image: url(/photo/football3.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football3.jpg);
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url(/photo/stadium.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/stadium.jpg);
   min-height: 400px;
 }.pimg4 {
-  background-image: url(/photo/football2.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football2.jpg);
   min-height: 400px;
 }
 .pimg1,
@@ -303,19 +303,19 @@ body {
   color: #666;
 }
 .pimg1 {
-  background-image: url(/photo/football3.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football3.jpg);
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url(/photo/football3.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football3.jpg);
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url(/photo/stadium.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/stadium.jpg);
   min-height: 400px;
 }
 .pimg4 {
-  background-image: url(/photo/football2.jpg);
+  background-image: url(/xampp/htdocs/project6/photo/football2.jpg);
   min-height: 400px;
 }
 .pimg1,
